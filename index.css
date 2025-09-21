@@ -8,6 +8,14 @@ body
   font-family: Calibri, sans-serif;
 }
 
+img {
+  display: block;
+  margin: auto;
+  width: 40%;
+  border: 8px solid darkred;
+   border-radius: 7px;
+}
+
 p 
 {
 font-style: italic;
@@ -23,7 +31,7 @@ h1
 {
   background-color: tomato;
   font-size: 40px;
-  width: 600px;
+  width: 650px;
   margin: auto;
   border: 4px solid darkred;
    border-radius: 7px;
@@ -33,8 +41,8 @@ h1
 
 h2
 {
-  font-size: 25px;
-  width: 500px;
+  font-size: 30px;
+  width: 600px;
   margin: auto 
 
 }
@@ -42,9 +50,10 @@ h2
 h3
 {
  font-family: "Comic Sans MS", sans-serif;
- font-size: 20px;
- background-color: tomato; 
- border-left: 8px solid darkred;
+ font-size: 25px;
+ color: tomato;
+ background-color: darkred; 
+ border-left: 8px solid tomato;
  border-left-style: solid;
   border-radius: 5px;
   padding: 10px;
@@ -53,9 +62,10 @@ h3
 h4
 {
  font-family: "Comic Sans MS", sans-serif;
-  font-size: 20px;
-  background-color: tomato; 
-  border-left: 8px solid darkred;
+  font-size: 25px;
+  color: tomato;
+ background-color: darkred; 
+ border-left: 8px solid tomato;
  border-left-style: solid;
    border-radius: 5px; 
     padding: 10px;
@@ -63,6 +73,18 @@ h4
 
 h5
 {
-  font-size: 15px; 
+  font-size: 20px; 
+  font-family: Courier New, monospace;
+  border-bottom: 4px solid darkred;
+  margin-left: 25px; 
 }
 
+h5+ul
+{
+  margin-left: 10px;
+}
+
+ul+p 
+{
+  margin-left: 40px;
+}
